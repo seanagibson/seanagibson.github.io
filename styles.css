@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+    .affix {
+        position: static;
+    }
+	.sidenav-links-row{
+		text-align: center;
+	}
+}
+
+body {
+  background-color: #fff;
+}
+
+#sidenav{
+	color: #428bca;
+	margin: 10px;
+}
+
+.sidenav-link{
+	text-decoration: none;
+	text-align: center;
+}
+
+.sidenav-link-text{
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#fa-icon{
+	display: inline-block;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.background{
+	font:'Slab';
+  color: #428bca;
+	padding-top: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.profile{
+	padding: 10px 10px 10px 10px;
+}
+
+.profile-content{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.skills{
+	padding: 10px 10px 10px 10px;
+}
+
+.programming-technologies{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.problem-solving{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.leadership{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.communication{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.education{
+	padding: 10px 10px 10px 10px;
+}
+
+#education-title{
+	padding-bottom: 10px;
+}
+
+#education-row{
+	border-top: 1px solid #cdcdcd;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+
+#education-content{
+	border-right: 1px solid #cdcdcd;
+}
+
+.work-experience{
+	padding: 10px 10px 10px 10px;
+}
+
+#work-title{
+	padding-bottom: 10px;
+}
+
+#work-row{
+	border-top: 1px solid #cdcdcd;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+
+#work-content{
+ 	border-right: 1px solid #cdcdcd;
+}
+
+.projects-container{
+  color: #428bca;
+}
+
+.projects-title{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.project-container{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  margin-left: 5px;
+  border-top: 1px solid #cdcdcd;
+}
+
+.project-details{
+  padding: 10px 50px 10px 75px;
+}
+
+.img-responsive{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
