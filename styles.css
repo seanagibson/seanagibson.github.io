@@ -1,29 +1,72 @@
-@media (max-width: 768px) {
-    .affix {
-        position: static;
-    }
-	.sidenav-links-row{
-		text-align: center;
-	}
+@media (min-width: 768px) {
+  .navbar-nav > li{
+    padding-top: 15px;
+    padding-right: 15px;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 500px){
+  .img-responsive{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 body {
   font-size: 1.5rem;
+  font-family: 'Lora', serif;
 }
 
-#sidenav{
-	color: #428bca;
-	margin: 10px;
+nav {
+  width: 100%;
 }
 
-.sidenav-link{
-	text-decoration: none;
-	text-align: center;
+.navbar-default{
+  background-color: #428bca;
 }
 
-.sidenav-link-text{
-	margin-top: 0px;
-	margin-bottom: 20px;
+.navbar{
+  min-height: 75px;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3rem;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+
+.navbar-toggle{
+  margin-top: 25px;
+}
+
+.navbar-nav{
+  text-align: center;
+}
+
+.navbar-header{
+  padding-bottom: 5px;
+}
+
+#navbar-img{
+  height: 50px;
+  width: auto;
+}
+
+.navbar-nav > li{
+  float: none;
 }
 
 #fa-icon{
@@ -36,9 +79,8 @@ a:hover {
 }
 
 .background{
-	font:'Slab';
   color: #428bca;
-	padding-top: 100px;
+	padding-top: 25px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -48,7 +90,7 @@ a:hover {
 }
 
 img{
-  border: 2px solid #ccc;
+  border: 2px solid #fff; /* changed from #ccc*/
 }
 
 .profile-content{
@@ -98,6 +140,10 @@ img{
 	border-right: 1px solid #cdcdcd;
 }
 
+#education-dates{
+  padding-top: 15px;
+}
+
 .work-experience{
 	padding: 10px 10px 10px 10px;
 }
@@ -114,6 +160,10 @@ img{
 
 #work-content{
  	border-right: 1px solid #cdcdcd;
+}
+
+#work-dates{
+  padding-top: 10px;
 }
 
 .projects-container{
@@ -138,8 +188,8 @@ img{
 }
 
 .img-responsive{
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
