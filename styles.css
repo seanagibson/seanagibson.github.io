@@ -1,9 +1,11 @@
 @media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+  }
   .navbar-nav > li{
     padding-top: 15px;
     padding-right: 15px;
     display: inline-block;
-    border-radius: 0px;
   }
 }
 
