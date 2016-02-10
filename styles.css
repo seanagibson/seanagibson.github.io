@@ -26,10 +26,12 @@ nav {
 
 .navbar-default{
   background-color: #428bca;
+  border-color: #428bca;
 }
 
 .navbar{
   min-height: 75px;
+  border: none;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -79,7 +81,7 @@ a:hover {
 }
 
 .background{
-  color: #428bca;
+  color: black;
 	padding-top: 25px;
 	padding-left: 10px;
 	padding-right: 10px;
