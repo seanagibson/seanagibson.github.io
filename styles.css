@@ -102,81 +102,9 @@ img{
   border: 2px solid #fff; /* changed from #ccc*/
 }
 
-.profile-content{
-	padding-top: 10px;
-	padding-left: 15px;
-}
-
-.skills{
-	padding: 10px 10px 10px 10px;
-}
-
-.programming-technologies{
-	padding-top: 10px;
-	padding-left: 15px;
-}
-
-.problem-solving{
-	padding-top: 10px;
-	padding-left: 15px;
-}
-
-.leadership{
-	padding-top: 10px;
-	padding-left: 15px;
-}
-
-.communication{
-	padding-top: 10px;
-	padding-left: 15px;
-}
-
-.education{
-	padding: 10px 10px 10px 10px;
-}
-
-#education-title{
-	padding-bottom: 10px;
-}
-
-#education-row{
-	border-top: 1px solid #cdcdcd;
-	padding-bottom: 15px;
-	padding-left: 15px;
-}
-
-#education-content{
-	border-right: 1px solid #cdcdcd;
-}
-
-#education-dates{
-  padding-top: 15px;
-}
-
-.work-experience{
-	padding: 10px 10px 10px 10px;
-}
-
-#work-title{
-	padding-bottom: 10px;
-}
-
-#work-row{
-	border-top: 1px solid #cdcdcd;
-	padding-bottom: 15px;
-	padding-left: 15px;
-}
-
-#work-content{
- 	border-right: 1px solid #cdcdcd;
-}
-
-#work-dates{
-  padding-top: 10px;
-}
-
 .projects-container{
   color: black;
+  margin: 0px 100px 0px 100px;
 }
 
 .projects-title{
